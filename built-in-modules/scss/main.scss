@@ -1,0 +1,76 @@
+// base
+$warna-dasar: salmon;
+
+h1 {
+    color: $warna-dasar;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+// Built-in Modules - Color
+
+// adjust-color($color, $red: null, $green: null, $blue: null, $hue: null, $saturation: null, $lightness: null, $alpha: 1.0)
+// h1 {
+//     color: adjust-color($color: $warna-dasar, $green: 100, $blue: 100, $red: -50);
+// }
+
+
+// adjust-hue($color, $degrees) -> untuk demo https://color.adobe.com/create/color-wheel
+// h1 {
+//     color: adjust-hue($warna-dasar, -30deg);
+// }
+
+
+// complement($color)
+// h1 {
+//     color: complement($warna-dasar);
+// }
+
+
+// darken($color, $amount)
+// h1 {
+//     color: darken($warna-dasar, 30%);
+// }
+
+
+// lighten($color, $amount)
+// h1 {
+//     color: lighten($warna-dasar, 20%);
+// }
+
+
+// saturate($color, $amount)
+// h1 {
+//     color: saturate($warna-dasar, 10%);
+// }
+
+
+// desaturate($color, $amount)
+// h1 {
+//     color: desaturate($warna-dasar, 50%);
+// }
+
+
+// grayscale($color)
+// h1 {
+//     color: grayscale($warna-dasar);
+// }
+
+
+// mix($color1, $color2, $weight: 50%)
+// h1 {
+//     color: mix($warna-dasar, blue, 80%);
+// }
+
+
+// fade-in($color, $amount)
+// h1 {
+//     color: fade-in(rgba(250, 128, 114, 0.2), 0.5);
+// }
+
+
+// fade-out($color, $amount)
+h1 {
+    color: fade-out($warna-dasar, 0.3);
+}

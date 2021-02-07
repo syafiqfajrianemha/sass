@@ -1,0 +1,14 @@
+@use 'sub-modules/mixin' as m;
+
+.footer ul {
+    @include m.inline-list();
+
+    li {
+        background-color: salmon;
+        padding: 0.4em;
+
+        a {
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+body {
+  min-height: 1000px;
+}
+
+.circle-profile {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.square-profile {
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+  background-color: #999;
+  color: #ddd;
+}
+
+.right {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1em;
+  border-left-color: black;
+}
+
+.gradient {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gradient li:nth-child(1) {
+  padding: 4px;
+  background-color: #fb8d81;
+}
+
+.gradient li:nth-child(2) {
+  padding: 4px;
+  background-color: #fb9b90;
+}
+
+.gradient li:nth-child(3) {
+  padding: 4px;
+  background-color: #fca89e;
+}
+
+.gradient li:nth-child(4) {
+  padding: 4px;
+  background-color: #fcb5ad;
+}
+
+.gradient li:nth-child(5) {
+  padding: 4px;
+  background-color: #fdc3bc;
+}
+
+.gradient li:nth-child(6) {
+  padding: 4px;
+  background-color: #fdd0cb;
+}
+
+.gradient li:nth-child(7) {
+  padding: 4px;
+  background-color: #feddd9;
+}
+
+.gradient li:nth-child(8) {
+  padding: 4px;
+  background-color: #feeae8;
+}
+
+.gradient li:nth-child(9) {
+  padding: 4px;
+  background-color: #fff8f7;
+}
+
+.gradient li:nth-child(10) {
+  padding: 4px;
+  background-color: white;
+}
+
+.socials {
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.socials .youtube {
+  color: #ff0000;
+}
+
+.socials .facebook {
+  color: #3b5998;
+}
+
+.socials .twitter {
+  color: #1da1f2;
+}
+
+.socials .instagram {
+  color: #ffbf34;
+}
+
+.socials .twitch {
+  color: #8134af;
+}
+/*# sourceMappingURL=main.css.map */
